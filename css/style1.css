@@ -1,0 +1,59 @@
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --font-family:'Overpass', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--VeryDarkBlue);
+    font-size: 15px;
+    font-family: var(--font-family);
+}
+main{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background: hsl(215,20%,16%);
+    border-radius: 15px;
+    width: 410px;
+    height: 400px;
+    align-items: center;
+    text-align: start;
+}
+.img img {
+    margin-top: 40px;
+
+}
+.card-text h2{
+    text-align: center;
+    background: hsl(215,17%,18%);
+    color: var(--Orange);
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 12px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+.card-text h1{
+    text-align: center;
+    color: var(--White);
+}
+.card-text p{
+    color: var(--LightGrey);
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+    line-height: 25px;
+}
